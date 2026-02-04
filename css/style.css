@@ -1,0 +1,9 @@
+.navbar{
+display:flex;
+height: 70px;
+align-ithems: center;
+list-style-type: none;
+gap: 30px;
+padding: 0px;
+text-decoration: none;
+}
