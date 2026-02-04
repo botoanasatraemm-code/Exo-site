@@ -1,3 +1,13 @@
+body{
+margin: 0px;
+padding: 0px;
+background-image:url('../img/background.jpeg');
+font-size: 16px;
+font-family: sans-serif;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
 .navbar{
 display:flex;
 height: 70px;
@@ -5,5 +15,10 @@ align-ithems: center;
 list-style-type: none;
 gap: 30px;
 padding: 0px;
+}
+.navbar a{
 text-decoration: none;
+color: black;
+font-size: 20px;
+
 }
