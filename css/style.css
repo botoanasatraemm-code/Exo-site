@@ -5,17 +5,16 @@
 }
 
 .ocean-nav {
-  background: linear-gradient(to bottom, var(--deep-blue), var(--ocean-blue));
-  padding: 1rem 2rem;
+  background-color: #002366;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
   font-family: sans-serif;
 }
 
 .logo {
-  color: white;
+  color: #000000;
   font-weight: bold;
   letter-spacing: 3px;
   margin-bottom: 15px;
@@ -55,7 +54,7 @@
 }
 
 .nav-links a:hover {
-  color: white;
+  color: #000000;
 }
 
 .nav-links a:hover::after {
@@ -74,30 +73,10 @@
 body {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
-  background: radial-gradient(circle at 50% -20%, #085078 0%, #032b44 50%, #001219 100%);
-  background-attachment: fixed;
-  position: relative;
-  overflow-x: hidden;
+  color: #002366;
+  background-color: #F5F5F5;
 }
 
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: repeating-linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.03) 0%,
-    rgba(255, 255, 255, 0.01) 10%,
-    transparent 20%
-  );
-  filter: blur(20px);
-  animation: ocean-rays 10s infinite alternate ease-in-out;
-  z-index: -1;
-}
 
 @keyframes ocean-rays {
   from {
@@ -113,7 +92,7 @@ body::before {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: #000000;
   padding: 80px 20px;
   min-height: 80vh;
 }
@@ -121,9 +100,9 @@ body::before {
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 20px;
-  text-shadow: 0 5px 15px rgba(0,0,0,0.5);
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: #002366;
 }
 
 .hero-content p {
@@ -131,7 +110,7 @@ body::before {
   max-width: 700px;
   margin: 0 auto 40px;
   line-height: 1.6;
-  color: #e0f2fe;
+  color: #000000;
 }
 
 .hero-buttons {
@@ -149,18 +128,18 @@ body::before {
 }
 
 .btn-primary {
-  background: var(--water-light);
-  color: var(--deep-blue);
+  background: #002366;
+  color: white;
 }
 
 .btn-secondary {
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #002366;
+  color: #002366;
 }
 
 .btn-primary:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px var(--water-light);
+  box-shadow: 0 0 20px #002366;
 }
 
 .stats-container {
@@ -172,7 +151,7 @@ body::before {
 }
 
 .stat-card {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(211, 211, 211, 0.5);
   padding: 20px;
   border-radius: 15px;
   backdrop-filter: blur(5px);
@@ -182,12 +161,11 @@ body::before {
 
 .stat-card h3 {
   font-size: 2rem;
-  color: var(--water-light);
+  color: #002366;
   margin: 0;
 }
 
 .stat-card p {
   font-size: 0.9rem;
-  margin: 5px 0 0;
-}
+  margin: 5px 0 0;}
 
