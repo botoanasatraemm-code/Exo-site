@@ -201,3 +201,18 @@ body {
   font-size: 0.95rem;
   line-height: 1.6;
 }
+.learn-more {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0077be;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.learn-more:hover {
+  background-color: #005f99;
+}
