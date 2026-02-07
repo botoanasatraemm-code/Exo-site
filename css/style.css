@@ -168,4 +168,36 @@ body {
 .stat-card p {
   font-size: 0.9rem;
   margin: 5px 0 0;}
+.ocean-threat-card {
+  max-width: 350px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  border: 1px solid #e0e0e0;
+}
 
+.ocean-threat-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 119, 190, 0.15);
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.threat-title {
+  margin: 0 0 12px 0;
+  color: #004d40;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.threat-description {
+  margin: 0 0 20px 0;
+  color: #546e7a;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
