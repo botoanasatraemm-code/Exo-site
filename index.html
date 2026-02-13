@@ -1,281 +1,102 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OceanGuard - Protection des Océans</title>
-
+    <title>OceanGuard - Madagascar</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+
     <nav class="navbar">
-        <div class="container">
+        <div class="container nav-flex">
             <div class="nav-brand">
-                <i class="fas fa-water"></i>
-                <span>OceanGuard</span>
+                <i class="fas fa-water"></i> OceanGuard
             </div>
             <ul class="nav-menu">
                 <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#apropos">À Propos</a></li>
                 <li><a href="#menaces">Menaces</a></li>
-                <li><a href="#gestes">Gestes</a></li>
+                <li><a href="#fondateurs">Équipe</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </div>
     </nav>
 
-    <section id="accueil" class="hero">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <h1 class="hero-title">Protégeons Nos Océans</h1>
-            <p class="hero-subtitle">Ensemble pour préserver la vie marine et les écosystèmes aquatiques</p>
-            <a href="#cta" class="btn btn-primary">Agir Maintenant</a>
+    <header id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Protégeons Nos Océans</h1>
+            <p>Une initiative de 10 fondateurs engagés à Madagascar.</p>
         </div>
-        <div class="scroll-indicator">
-            <i class="fas fa-chevron-down"></i>
-        </div>
-    </section>
+    </header>
 
-    <section id="apropos" class="section">
+    <section id="menaces" class="section">
         <div class="container">
-            <div class="section-header">
-                <h2>À Propos</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <p class="lead">OceanGuard est une initiative dédiée à la protection et à la préservation des océans
-                        du monde entier.</p>
-                    <p>Les océans couvrent plus de 70% de notre planète et abritent une biodiversité extraordinaire. Ils
-                        régulent le climat, produisent de l'oxygène et nourrissent des milliards de personnes. Pourtant,
-                        ils sont aujourd'hui menacés par les activités humaines.</p>
-                    <p>Notre mission est de sensibiliser, éduquer et mobiliser les citoyens du monde entier pour
-                        préserver cet écosystème vital pour les générations futures.</p>
+            <h2 class="section-title">Menaces Principales</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="img/pollu-plastic.jpg" alt="Plastique">
+                    <div class="card-body">
+                        <h3>Pollution Plastique</h3>
+                        <p>Des tonnes de déchets menacent notre biodiversité marine.</p>
+                    </div>
                 </div>
-                <div class="about-stats">
-                    <div class="stat-card">
-                        <i class="fas fa-water"></i>
-                        <h3>70%</h3>
-                        <p>De la surface terrestre</p>
+                <div class="card">
+                    <img src="img/chaud.jpeg" alt="Climat">
+                    <div class="card-body">
+                        <h3>Réchauffement</h3>
+                        <p>L'élévation des températures détruit les récifs coralliens.</p>
                     </div>
-                    <div class="stat-card">
-                        <i class="fas fa-fish"></i>
-                        <h3>200K+</h3>
-                        <p>Espèces marines</p>
-                    </div>
-                    <div class="stat-card">
-                        <i class="fas fa-wind"></i>
-                        <h3>50%</h3>
-                        <p>De notre oxygène</p>
+                </div>
+                <div class="card">
+                    <img src="img/peche.jpeg" alt="Pêche">
+                    <div class="card-body">
+                        <h3>Surpêche</h3>
+                        <p>L'exploitation excessive fragilise les ressources marines.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="menaces" class="section section-dark">
+    <section id="fondateurs" class="section bg-light">
         <div class="container">
-            <div class="section-header">
-                <h2>Menaces Principales</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="threats-grid">
-                <div class="threat-card">
-                    <div class="threat-icon">
-                        <i class="fas fa-trash"></i>
-                    </div>
-                    <h3>Pollution Plastique</h3>
-                    <p>8 millions de tonnes de plastique finissent dans les océans chaque année, formant des îles de
-                        déchets et menaçant la faune marine.</p>
+            <h2 class="section-title">Nos 10 Fondateurs</h2>
+            <div class="grid-10">
+                <div class="member-card">
+                    <div class="member-img"><img src="img/jess.jpg" alt=""></div>
+                    <h4>&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                    <p>Co-fondateur</p>
                 </div>
-                <div class="threat-card">
-                    <div class="threat-icon">
-                        <i class="fas fa-temperature-high"></i>
-                    </div>
-                    <h3>Réchauffement Climatique</h3>
-                    <p>L'augmentation de la température des océans provoque le blanchissement des coraux et perturbe les
-                        écosystèmes marins.</p>
-                </div>
-                <div class="threat-card">
-                    <div class="threat-icon">
-                        <i class="fas fa-ship"></i>
-                    </div>
-                    <h3>Surpêche</h3>
-                    <p>Plus de 30% des stocks de poissons sont surexploités, menaçant l'équilibre des chaînes
-                        alimentaires marines.</p>
-                </div>
-                <div class="threat-card">
-                    <div class="threat-icon">
-                        <i class="fas fa-industry"></i>
-                    </div>
-                    <h3>Pollution Chimique</h3>
-                    <p>Les rejets industriels et agricoles contaminent les eaux marines avec des substances toxiques et
-                        des nutriments excessifs.</p>
-                </div>
-                <div class="threat-card">
-                    <div class="threat-icon">
-                        <i class="fas fa-oil-can"></i>
-                    </div>
-                    <h3>Marées Noires</h3>
-                    <p>Les déversements de pétrole causent des dommages irréversibles à la faune, la flore et aux
-                        écosystèmes côtiers.</p>
-                </div>
-                <div class="threat-card">
-                    <div class="threat-icon">
-                        <i class="fas fa-tint"></i>
-                    </div>
-                    <h3>Acidification</h3>
-                    <p>L'absorption du CO2 acidifie les océans, menaçant les organismes à coquille et les récifs
-                        coralliens.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="gestes" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Gestes au Quotidien</h2>
-                <div class="underline"></div>
-                <p class="section-subtitle">Chacun peut contribuer à la protection des océans</p>
-            </div>
-            <div class="actions-grid">
-                <div class="action-card">
-                    <i class="fas fa-shopping-bag"></i>
-                    <h3>Réduire le Plastique</h3>
-                    <p>Utilisez des sacs réutilisables, évitez les produits à usage unique et privilégiez les emballages
-                        durables.</p>
-                </div>
-                <div class="action-card">
-                    <i class="fas fa-recycle"></i>
-                    <h3>Recycler</h3>
-                    <p>Triez vos déchets correctement et participez aux programmes de recyclage de votre communauté.</p>
-                </div>
-                <div class="action-card">
-                    <i class="fas fa-utensils"></i>
-                    <h3>Consommer Responsable</h3>
-                    <p>Choisissez des produits de la mer issus de pêche durable et certifiés par des labels écologiques.
-                    </p>
-                </div>
-                <div class="action-card">
-                    <i class="fas fa-spray-can"></i>
-                    <h3>Produits Écologiques</h3>
-                    <p>Utilisez des cosmétiques et produits ménagers sans microplastiques ni substances toxiques.</p>
-                </div>
-                <div class="action-card">
-                    <i class="fas fa-hands-helping"></i>
-                    <h3>Participer</h3>
-                    <p>Rejoignez des opérations de nettoyage de plages et soutenez les organisations de protection
-                        marine.</p>
-                </div>
-                <div class="action-card">
-                    <i class="fas fa-graduation-cap"></i>
-                    <h3>Sensibiliser</h3>
-                    <p>Partagez vos connaissances et éduquez votre entourage sur l'importance de protéger les océans.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="cta" class="cta-section">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Rejoignez le Mouvement</h2>
-                <p>Ensemble, faisons la différence pour nos océans</p>
-                <div class="cta-buttons">
-                    <a href="#contact" class="btn btn-light">S'engager</a>
-                    <a href="#" class="btn btn-outline">Faire un Don</a>
-                </div>
+                <div class="member-card"><div class="member-img"><img src="img/j.jpeg" alt=""></div><h4>&nbsp;&nbsp;&nbsp;&nbsp;</h4><p>Jessica 😍</p></div>
+                <div class="member-card"><div class="member-img"><img src="img/long.jpg" alt=""></div><h4>&nbsp;&nbsp;&nbsp;&nbsp;</h4><p>Jacques</p></div>
+                <div class="member-card"><div class="member-img"><img src="img/lolo.jpg" alt=""></div><h4>&nbsp;&nbsp;&nbsp;&nbsp;</h4><p>Aurelio</p></div>
+                <div class="member-card"><div class="member-img"><img src="img/jessica2.jpg" alt=""></div><h4>&nbsp;&nbsp;&nbsp;&nbsp;</h4><p>Jessica</p></div>
+                <div class="member-card"><div class="member-img"><img src="img/muri.jpg" alt=""></div><h4>&nbsp;&nbsp;&nbsp;&nbsp;</h4><p>Murielle</p></div>
+                <div class="member-card"><div class="member-img"><img src="img/azazel.png" alt=""></div><h4>&nbsp;&nbsp;&nbsp;&nbsp;</h4><p>Safidy</p></div>
+                <div class="member-card"><div class="member-img"><img src="img/haja.jpeg" alt=""></div><h4>&nbsp;&nbsp;&nbsp;&nbsp;</h4><p>Hajatina</p></div>
+                <div class="member-card"><div class="member-img"><img src="img/jaune.jpg" alt=""></div><h4>&nbsp;&nbsp;&nbsp;&nbsp;</h4><p>Christino</p></div>
+                <div class="member-card"><div class="member-img"><img src="img/tsy.jpg" alt=""></div><h4>&nbsp;&nbsp;&nbsp;&nbsp;</h4><p>Tsiresy</p></div>
             </div>
         </div>
     </section>
 
     <section id="contact" class="section">
         <div class="container">
-            <div class="section-header">
-                <h2>Contactez-Nous</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="contact-wrapper">
-                <div class="contact-info">
-                    <h3>Restons en Contact</h3>
-                    <p>Vous avez des questions ou souhaitez vous impliquer ? N'hésitez pas à nous contacter.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
-                                <h4>Adresse</h4>
-                                <p>Madagascar<br>Andraijato, Emit</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <div>
-                                <h4>Email</h4>
-                                <p>botanasatraem@gmail.com</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <div>
-                                <h4>Téléphone</h4>
-                                <p>+261 38 79 500 50</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" placeholder="Nom complet" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Sujet">
-                        </div>
-                        <div class="form-group">
-                            <textarea rows="5" placeholder="Votre message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Envoyer</button>
-                    </form>
-                </div>
-            </div>
+            <h2 class="section-title">Contactez-nous</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Nom complet" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <i class="fas fa-water"></i>
-                    <span>OceanGuard</span>
-                </div>
-                <p>&copy; 2024 OceanGuard. Tous droits réservés.</p>
-            </div>
-        </div>
+        <p>&copy; 2024 OceanGuard - Madagascar</p>
     </footer>
 
-    <script src="js/script.js"></script>
 </body>
-
 </html>
